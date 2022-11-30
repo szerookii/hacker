@@ -1,0 +1,178 @@
+newmtl Hair
+d 1
+Kd 1 1 1
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko_02.jpg"
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko_tr.jpg"
+
+newmtl Base
+d 1
+Kd 1 1 1
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko_02base.jpg"
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko base.jpg"
+
+newmtl Band
+d 1
+Kd 0.78823531 0.78823531 0.78823531
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/band/sw_yunko-band01.jpg"
+
+newmtl Bangs
+d 1
+Kd 1 1 1
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko_02.jpg"
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_15933/runtime/textures/swam_art/yunkohr/sw_yunko_tr.jpg"
+
+newmtl Torso
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasetorsomapd_1002.jpg"
+
+newmtl Face
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasefacemapd_1001.jpg"
+
+newmtl Lips
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasefacemapd_1001.jpg"
+
+newmtl Teeth
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasemouthmapd_1005.jpg"
+
+newmtl Ears
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasefacemapd_1001.jpg"
+
+newmtl Legs
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaselegsmapd_1003.jpg"
+
+newmtl EyeSocket
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/DAZ/Characters/Genesis8/FemaleBase/G8FBaseFaceMapD_1001.jpg"
+
+newmtl Mouth
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasemouthmapd_1005.jpg"
+
+newmtl Arms
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasearmsmapd_1004.jpg"
+
+newmtl Pupils
+d 1
+Kd 0.75294119 0.75294119 0.75294119
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaseeyes01_1007.jpg"
+
+newmtl EyeMoisture
+d 0.995
+Kd 0.72941178 0.72941178 0.72941178
+
+newmtl Fingernails
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbasearmsmapd_1004.jpg"
+
+newmtl Cornea
+d 0.995
+Kd 0.72941178 0.72941178 0.72941178
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaseeyes01_1007.jpg"
+
+newmtl Irises
+d 1
+Kd 1 1 1
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaseeyes01_1007.jpg"
+
+newmtl Sclera
+d 1
+Kd 1 1 1
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaseeyes01_1007.jpg"
+
+newmtl Toenails
+d 1
+Kd 0.93725491 0.93725491 0.93725491
+map_Kd "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/Od070865/Face Transfer/ghhh/ghhh_g8fbaselegsmapd_1003.jpg"
+
+newmtl EyeMoisture_Genesis_8_Female_Eyelashes_(2)
+d 0.995
+Kd 1 1 1
+
+newmtl Eyelashes
+d 1
+Kd 0 0 0
+map_D "C:/Daz 3D/Applications/Data/DAZ 3D/My DAZ 3D Library/Runtime/Textures/DAZ/Characters/Genesis8/FemaleBase/G8FBaseEyelashes_1006.jpg"
+
+newmtl base
+d 2
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriebra.jpg"
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriebratr.jpg"
+
+newmtl cups
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriebra.jpg"
+
+newmtl straps
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriebra.jpg"
+
+newmtl plastic
+d 1
+Kd 0.05882353 0.05882353 0.05882353
+
+newmtl bow
+d 1
+Kd 0.13333334 0.13333334 0.13333334
+
+newmtl plastic_Tessa_Lingerie_Garterbelt
+d 1
+Kd 0.05882353 0.05882353 0.05882353
+
+newmtl straps_Tessa_Lingerie_Garterbelt
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpanty.jpg"
+
+newmtl garterbelt
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpanty.jpg"
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpantytr.jpg"
+
+newmtl legs
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpanty.jpg"
+
+newmtl bow_Tessa_Lingerie_Garterbelt
+d 1
+Kd 0.13333334 0.13333334 0.13333334
+
+newmtl panty
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpanty.jpg"
+
+newmtl panty_bottom
+d 1
+Kd 0.023529412 0.023529412 0.023529412
+map_Kd "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriegarterbeltpanty.jpg"
+
+newmtl bow_Tessa_Lingerie_Panty
+d 1
+Kd 0.13333334 0.13333334 0.13333334
+
+newmtl stockings
+d 1
+Kd 0.05882353 0.05882353 0.05882353
+map_D "C:/Users/home1/OneDrive/Dokumenter/DAZ 3D/Studio/My Daz Connect Library/data/cloud/1_61433/runtime/textures/outoftouch/tessalingerie/01tessalingeriestocking.jpg"
+

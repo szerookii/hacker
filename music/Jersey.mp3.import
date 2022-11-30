@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Jersey.mp3-abfdd2e1842b4403743a246f3918464f.mp3str"
+
+[deps]
+
+source_file="res://music/Jersey.mp3"
+dest_files=[ "res://.import/Jersey.mp3-abfdd2e1842b4403743a246f3918464f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

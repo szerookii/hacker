@@ -54,8 +54,9 @@ func _ready():
 	# Initalise context, folders & files
 	current_context = Context.new()
 	
-	if MACHINE_IP == null || MACHINE_IP == "Null":
+	if OS.has_feature("JavaScript"):
 		MACHINE_IP = "127.0.0.1"
+		print("Playing on web")
 	
 	# Root folders
 	current_context.root_directory = Folder.new("", null)

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/KeyboardIntro1.mp3-94537948ed3829aeabe4a392d9003af4.mp3str"
+
+[deps]
+
+source_file="res://music/KeyboardIntro1.mp3"
+dest_files=[ "res://.import/KeyboardIntro1.mp3-94537948ed3829aeabe4a392d9003af4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

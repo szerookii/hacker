@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="VirusMaze" type="Spatial"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.996443, 0.0842691, 0, -0.0842691, 0.996443, -0.224485, 1.32292, 1.11987 )

@@ -54,7 +54,7 @@ func _ready():
 	# Initalise context, folders & files
 	current_context = Context.new()
 	
-	if !MACHINE_IP:
+	if MACHINE_IP == null || MACHINE_IP == "Null":
 		MACHINE_IP = "127.0.0.1"
 	
 	# Root folders

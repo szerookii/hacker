@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scripts/TerminalText.gd" type="Script" id=1]
-[ext_resource path="res://music/Jersey.mp3" type="AudioStream" id=2]
+[ext_resource path="res://music/Trap.mp3" type="AudioStream" id=2]
 [ext_resource path="res://fonts/VT323-Regular.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=1]

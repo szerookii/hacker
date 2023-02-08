@@ -6,6 +6,7 @@ const CHANGE_DIRECTORY_COMMAND = "cd"	# Change working directory
 const QUIT_COMMAND = "exit"		# Quit application
 const CLEAR_COMMAND = "clear"		# Clear terminal windows
 
+var MACHINE_IP = IP.get_local_addresses()[1]
 var current_context : Context
 var past_commands = []
 
@@ -53,6 +54,9 @@ func _ready():
 	# Initalise context, folders & files
 	current_context = Context.new()
 	
+	if !MACHINE_IP:
+		MACHINE_IP = "127.0.0.1"
+	
 	# Root folders
 	current_context.root_directory = Folder.new("", null)
 	current_context.root_directory.child_directories = [
@@ -72,7 +76,7 @@ func _ready():
 	
 	# Bureau/
 	current_context.root_directory.child_directories[0].child_directories = [
-		Folder.new("Porn", current_context.root_directory.child_directories[0]),
+		Folder.new("NSFW", current_context.root_directory.child_directories[0]),
 		Folder.new("IDA_Pro_7.6", current_context.root_directory.child_directories[0])
 	]
 	current_context.root_directory.child_directories[0].child_files = [
@@ -81,7 +85,7 @@ func _ready():
 	]
 	current_context.root_directory.child_directories[0].child_files[0].set_content("Pour lancer un DDoS utilisez cette commande : 'ddos <ip>'\nIP serveurs estoniens : %s" % IP.get_local_addresses()[1])
 	
-	# Bureau/Porn
+	# Bureau/NSFW
 	current_context.root_directory.child_directories[0].child_directories[0].child_files = [
 		Document.new("Sextape Jean Dujardin.mp4", current_context.root_directory.child_directories[0].child_directories[0])
 	]
@@ -115,9 +119,9 @@ func _ready():
 	
 	clear()
 	
-	# Draw technobbabble
+	# Draw header
 	draw_new_line("EIC Server v1.0.3-ALPHA3", false, false, false)
-	draw_new_line("Copyright (C) 2022 szeroki", false, true, false)
+	draw_new_line("Copyright (C) szeroki", false, true, false)
 	draw_new_line("Date %s" % current_context.date, false, true, false)
 	
 	newline()

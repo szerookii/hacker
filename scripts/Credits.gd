@@ -47,11 +47,13 @@ var credits = [
 		"https://www.image-line.com/fl-studio"
 	],[
 		"Merci d'avoir joué",
-		"On espère un 20/20 :)"
+		"On espère un 20/20 :>"
 	]
 ]
 
-
+func _ready():
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	
 func _process(delta):
 	var scroll_speed = base_speed * delta
 	

@@ -56,7 +56,7 @@ func _ready():
 	
 	if OS.has_feature("JavaScript"):
 		MACHINE_IP = "127.0.0.1"
-		print("Playing on web")
+		JavaScript.eval("console.log('Playing on web')")
 	
 	# Root folders
 	current_context.root_directory = Folder.new("", null)
@@ -84,7 +84,7 @@ func _ready():
 		Document.new("IPs.txt", current_context.root_directory.child_directories[0]),
 		Document.new("Observation_oiseaux.txt", current_context.root_directory.child_directories[0])
 	]
-	current_context.root_directory.child_directories[0].child_files[0].set_content("Pour lancer un DDoS utilisez cette commande : 'ddos <ip>'\nIP serveurs estoniens : %s" % IP.get_local_addresses()[1])
+	current_context.root_directory.child_directories[0].child_files[0].set_content("Pour lancer un DDoS utilisez cette commande : 'ddos <ip>'\nIP serveurs estoniens : %s" % MACHINE_IP)
 	
 	# Bureau/NSFW
 	current_context.root_directory.child_directories[0].child_directories[0].child_files = [
@@ -445,7 +445,7 @@ func parse_input(input : String):
 			return true
 		
 		if split_input[0] == "ddos":
-			if len(split_input) > 1 && split_input[1] == IP.get_local_addresses()[1]:
+			if len(split_input) > 1 && split_input[1] == MACHINE_IP:
 				draw_new_line("L'attaque DDoS va être lancée...", false, true, false)
 				
 				yield(get_tree().create_timer(1.0), "timeout")

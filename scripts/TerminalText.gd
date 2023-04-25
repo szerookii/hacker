@@ -6,7 +6,7 @@ const CHANGE_DIRECTORY_COMMAND = "cd"	# Change working directory
 const QUIT_COMMAND = "exit"		# Quit application
 const CLEAR_COMMAND = "clear"		# Clear terminal windows
 
-var MACHINE_IP = IP.get_local_addresses()[1]
+var MACHINE_IP = ""
 var current_context : Context
 var past_commands = []
 
@@ -56,7 +56,8 @@ func _ready():
 	
 	if OS.has_feature("JavaScript"):
 		MACHINE_IP = "127.0.0.1"
-		JavaScript.eval("console.log('Playing on web')")
+	else:
+		IP.get_local_addresses()[1]
 	
 	# Root folders
 	current_context.root_directory = Folder.new("", null)

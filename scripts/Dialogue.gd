@@ -28,11 +28,6 @@ func stop_dialogue():
 	if close_game_on_exit:
 		get_tree().quit()
 	else:
-		# TODO: Fix not working in web
-		if OS.has_feature("JavaScript"):
-			get_tree().change_scene("res://scenes/Credits.tscn")
-			return
-			
 		get_tree().change_scene_to(next_scene)
 
 func _on_next_char_timeout():
